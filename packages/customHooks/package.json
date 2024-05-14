@@ -1,0 +1,17 @@
+{
+  "name": "@letshang/customHooks",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "*",
+    "@letshang/api": "*",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  }
+}

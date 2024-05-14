@@ -1,0 +1,21 @@
+{
+  "name": "@letshang/components",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-native": "0.74.1"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "*",
+    "@letshang/types": "*",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  }
+}

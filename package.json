@@ -1,0 +1,23 @@
+{
+  "name": "letshang-workspace-yarn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build-api": "yarn workspace @letshang/api build",
+    "build-types": "yarn workspace @letshang/types build",
+    "build-customHooks": "yarn workspace @letshang/customHooks build",
+    "build-compponents": "yarn workspace @letshang/components build",
+    "start-expo": "yarn workspace app start",
+    "start-web": "yarn workspace web dev",
+    "start-backend": "yarn workspace backend start"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "dependencies": {
+    "axios": "^1.6.8"
+  }
+}
